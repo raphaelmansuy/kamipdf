@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "kamipdf"
+version = "0.2.0"
+description = ""
+authors = ["Raphael MANSUY <raphael.mansuy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fitz = "^0.0.1.dev2"
+click = "^8.1.7"
+pymupdf = "^1.23.26"
+
+
+[tool.poetry.scripts]
+kamipdf = "kamipdf.main:main"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.2"
+pylint = "^3.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

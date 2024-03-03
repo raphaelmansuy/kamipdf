@@ -1,0 +1,8 @@
+.git
+.venv
+dist
+extracted_images
+.pytest_cache
+__pycache__
+*.pyc
+.DS_Store
